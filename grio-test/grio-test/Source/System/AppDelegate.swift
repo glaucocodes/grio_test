@@ -19,10 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         self.window = UIWindow(frame: UIScreen.main.bounds)
         let mainStoryboard: UIStoryboard = UIStoryboard(name: "PostsList", bundle: nil)
-        let categoriesListVC: PostsListVC = mainStoryboard.instantiateViewController(withIdentifier: "PostsListVC") as! PostsListVC
+        let postsListsVC: PostsListVC = mainStoryboard.instantiateViewController(withIdentifier: "PostsListVC") as! PostsListVC
         
         let navigationController = UINavigationController()
-        navigationController.viewControllers = [categoriesListVC]
+        navigationController.viewControllers = [postsListsVC]
         self.window?.rootViewController = navigationController
         
         self.window?.makeKeyAndVisible()

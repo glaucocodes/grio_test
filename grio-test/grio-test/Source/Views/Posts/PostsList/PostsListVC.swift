@@ -26,8 +26,20 @@ class PostsListVC: UIViewController {
         self.tableView.estimatedRowHeight = 400
         
         self.loadData()
+        
+        let addButton = UIBarButtonItem(title: "Add", style: .done, target: self, action: #selector(openAdd))
+        self.navigationItem.rightBarButtonItem  = addButton
+        
+        self.title = "List of posts"
+
     }
     
+    @objc func openAdd(){
+        let storyboard: UIStoryboard = UIStoryboard(name: "AddPost", bundle: nil)
+        let addPostVC: AddPostVC = storyboard.instantiateViewController(withIdentifier: "AddPostVC") as! AddPostVC
+        
+        self.navigationController?.pushViewController(addPostVC, animated: true)
+    }
 
     /*
     // MARK: - Navigation

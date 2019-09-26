@@ -27,6 +27,8 @@
 		E33F5B71233CB64900F6A917 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = E33F5B70233CB64900F6A917 /* data.json */; };
 		E33F5B74233CB6BD00F6A917 /* PostsListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F5B73233CB6BD00F6A917 /* PostsListTVC.swift */; };
 		E33F5B76233CB87000F6A917 /* ImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F5B75233CB87000F6A917 /* ImageExtensions.swift */; };
+		E33F5B79233CCB6400F6A917 /* AddPost.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33F5B78233CCB6400F6A917 /* AddPost.storyboard */; };
+		E33F5B7B233CCB8400F6A917 /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F5B7A233CCB8400F6A917 /* AddPostVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		E33F5B70233CB64900F6A917 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		E33F5B73233CB6BD00F6A917 /* PostsListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListTVC.swift; sourceTree = "<group>"; };
 		E33F5B75233CB87000F6A917 /* ImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtensions.swift; sourceTree = "<group>"; };
+		E33F5B78233CCB6400F6A917 /* AddPost.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddPost.storyboard; sourceTree = "<group>"; };
+		E33F5B7A233CCB8400F6A917 /* AddPostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +268,8 @@
 		E33F5B77233CCB0500F6A917 /* AddPost */ = {
 			isa = PBXGroup;
 			children = (
+				E33F5B78233CCB6400F6A917 /* AddPost.storyboard */,
+				E33F5B7A233CCB8400F6A917 /* AddPostVC.swift */,
 			);
 			path = AddPost;
 			sourceTree = "<group>";
@@ -376,6 +382,7 @@
 				E33F5B30233CAC6900F6A917 /* LaunchScreen.storyboard in Resources */,
 				E33F5B2D233CAC6900F6A917 /* Assets.xcassets in Resources */,
 				E33F5B71233CB64900F6A917 /* data.json in Resources */,
+				E33F5B79233CCB6400F6A917 /* AddPost.storyboard in Resources */,
 				E33F5B28233CAC6700F6A917 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +408,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E33F5B7B233CCB8400F6A917 /* AddPostVC.swift in Sources */,
 				E33F5B64233CB10100F6A917 /* Author.swift in Sources */,
 				E33F5B66233CB1B700F6A917 /* Body.swift in Sources */,
 				E33F5B2B233CAC6700F6A917 /* grio_test.xcdatamodeld in Sources */,
