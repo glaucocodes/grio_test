@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E33F5B23233CAC6700F6A917 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F5B22233CAC6700F6A917 /* AppDelegate.swift */; };
+		E33F5B25233CAC6700F6A917 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F5B24233CAC6700F6A917 /* ViewController.swift */; };
+		E33F5B28233CAC6700F6A917 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33F5B26233CAC6700F6A917 /* Main.storyboard */; };
+		E33F5B2B233CAC6700F6A917 /* grio_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E33F5B29233CAC6700F6A917 /* grio_test.xcdatamodeld */; };
+		E33F5B2D233CAC6900F6A917 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E33F5B2C233CAC6900F6A917 /* Assets.xcassets */; };
+		E33F5B30233CAC6900F6A917 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33F5B2E233CAC6900F6A917 /* LaunchScreen.storyboard */; };
+		E33F5B3B233CAC6900F6A917 /* grio_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F5B3A233CAC6900F6A917 /* grio_testTests.swift */; };
+		E33F5B46233CAC6900F6A917 /* grio_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F5B45233CAC6900F6A917 /* grio_testUITests.swift */; };
+		E33F5B5A233CAD3700F6A917 /* PostsList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33F5B59233CAD3700F6A917 /* PostsList.storyboard */; };
+		E33F5B5E233CADC200F6A917 /* PostsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F5B5D233CADC200F6A917 /* PostsListVC.swift */; };
+		E33F5B61233CAF2900F6A917 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F5B60233CAF2900F6A917 /* DateExtensions.swift */; };
+		E33F5B64233CB10100F6A917 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F5B63233CB10100F6A917 /* Author.swift */; };
+		E33F5B66233CB1B700F6A917 /* Body.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F5B65233CB1B700F6A917 /* Body.swift */; };
+		E33F5B68233CB1FD00F6A917 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F5B67233CB1FD00F6A917 /* Message.swift */; };
+		E33F5B6A233CB2F200F6A917 /* ResponsePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F5B69233CB2F200F6A917 /* ResponsePost.swift */; };
+		E33F5B6C233CB34B00F6A917 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F5B6B233CB34B00F6A917 /* Post.swift */; };
+		E33F5B6F233CB46D00F6A917 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F5B6E233CB46D00F6A917 /* ApiManager.swift */; };
+		E33F5B71233CB64900F6A917 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = E33F5B70233CB64900F6A917 /* data.json */; };
+		E33F5B74233CB6BD00F6A917 /* PostsListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F5B73233CB6BD00F6A917 /* PostsListTVC.swift */; };
+		E33F5B76233CB87000F6A917 /* ImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F5B75233CB87000F6A917 /* ImageExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E33F5B37233CAC6900F6A917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E33F5B17233CAC6700F6A917 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E33F5B1E233CAC6700F6A917;
+			remoteInfo = "grio-test";
+		};
+		E33F5B42233CAC6900F6A917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E33F5B17233CAC6700F6A917 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E33F5B1E233CAC6700F6A917;
+			remoteInfo = "grio-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E33F5B1F233CAC6700F6A917 /* grio-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "grio-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33F5B22233CAC6700F6A917 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E33F5B24233CAC6700F6A917 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E33F5B27233CAC6700F6A917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E33F5B2A233CAC6700F6A917 /* grio_test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = grio_test.xcdatamodel; sourceTree = "<group>"; };
+		E33F5B2C233CAC6900F6A917 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E33F5B2F233CAC6900F6A917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E33F5B31233CAC6900F6A917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E33F5B36233CAC6900F6A917 /* grio-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "grio-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33F5B3A233CAC6900F6A917 /* grio_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grio_testTests.swift; sourceTree = "<group>"; };
+		E33F5B3C233CAC6900F6A917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E33F5B41233CAC6900F6A917 /* grio-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "grio-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33F5B45233CAC6900F6A917 /* grio_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grio_testUITests.swift; sourceTree = "<group>"; };
+		E33F5B47233CAC6900F6A917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E33F5B59233CAD3700F6A917 /* PostsList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PostsList.storyboard; sourceTree = "<group>"; };
+		E33F5B5D233CADC200F6A917 /* PostsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListVC.swift; sourceTree = "<group>"; };
+		E33F5B60233CAF2900F6A917 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		E33F5B63233CB10100F6A917 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		E33F5B65233CB1B700F6A917 /* Body.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Body.swift; sourceTree = "<group>"; };
+		E33F5B67233CB1FD00F6A917 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E33F5B69233CB2F200F6A917 /* ResponsePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsePost.swift; sourceTree = "<group>"; };
+		E33F5B6B233CB34B00F6A917 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		E33F5B6E233CB46D00F6A917 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		E33F5B70233CB64900F6A917 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		E33F5B73233CB6BD00F6A917 /* PostsListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListTVC.swift; sourceTree = "<group>"; };
+		E33F5B75233CB87000F6A917 /* ImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E33F5B1C233CAC6700F6A917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33F5B33233CAC6900F6A917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33F5B3E233CAC6900F6A917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E33F5B16233CAC6700F6A917 = {
+			isa = PBXGroup;
+			children = (
+				E33F5B21233CAC6700F6A917 /* grio-test */,
+				E33F5B39233CAC6900F6A917 /* grio-testTests */,
+				E33F5B44233CAC6900F6A917 /* grio-testUITests */,
+				E33F5B20233CAC6700F6A917 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E33F5B20233CAC6700F6A917 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E33F5B1F233CAC6700F6A917 /* grio-test.app */,
+				E33F5B36233CAC6900F6A917 /* grio-testTests.xctest */,
+				E33F5B41233CAC6900F6A917 /* grio-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E33F5B21233CAC6700F6A917 /* grio-test */ = {
+			isa = PBXGroup;
+			children = (
+				E33F5B53233CACC400F6A917 /* Source */,
+				E33F5B24233CAC6700F6A917 /* ViewController.swift */,
+				E33F5B26233CAC6700F6A917 /* Main.storyboard */,
+			);
+			path = "grio-test";
+			sourceTree = "<group>";
+		};
+		E33F5B39233CAC6900F6A917 /* grio-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				E33F5B3A233CAC6900F6A917 /* grio_testTests.swift */,
+				E33F5B3C233CAC6900F6A917 /* Info.plist */,
+			);
+			path = "grio-testTests";
+			sourceTree = "<group>";
+		};
+		E33F5B44233CAC6900F6A917 /* grio-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E33F5B45233CAC6900F6A917 /* grio_testUITests.swift */,
+				E33F5B47233CAC6900F6A917 /* Info.plist */,
+			);
+			path = "grio-testUITests";
+			sourceTree = "<group>";
+		};
+		E33F5B53233CACC400F6A917 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E33F5B6D233CB3D600F6A917 /* Network */,
+				E33F5B62233CB0EB00F6A917 /* Models */,
+				E33F5B5F233CAF1700F6A917 /* Extensions */,
+				E33F5B5B233CAD6F00F6A917 /* Views */,
+				E33F5B58233CAD1700F6A917 /* System */,
+				E33F5B56233CACE500F6A917 /* Assets */,
+				E33F5B55233CACDC00F6A917 /* Database */,
+				E33F5B54233CACCE00F6A917 /* Launch */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E33F5B54233CACCE00F6A917 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				E33F5B2E233CAC6900F6A917 /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		E33F5B55233CACDC00F6A917 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				E33F5B29233CAC6700F6A917 /* grio_test.xcdatamodeld */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		E33F5B56233CACE500F6A917 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E33F5B70233CB64900F6A917 /* data.json */,
+				E33F5B2C233CAC6900F6A917 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E33F5B57233CACF800F6A917 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				E33F5B77233CCB0500F6A917 /* AddPost */,
+				E33F5B5C233CAD8300F6A917 /* PostsList */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		E33F5B58233CAD1700F6A917 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				E33F5B31233CAC6900F6A917 /* Info.plist */,
+				E33F5B22233CAC6700F6A917 /* AppDelegate.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		E33F5B5B233CAD6F00F6A917 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E33F5B57233CACF800F6A917 /* Posts */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E33F5B5C233CAD8300F6A917 /* PostsList */ = {
+			isa = PBXGroup;
+			children = (
+				E33F5B72233CB6A000F6A917 /* Cells */,
+				E33F5B59233CAD3700F6A917 /* PostsList.storyboard */,
+				E33F5B5D233CADC200F6A917 /* PostsListVC.swift */,
+			);
+			path = PostsList;
+			sourceTree = "<group>";
+		};
+		E33F5B5F233CAF1700F6A917 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E33F5B60233CAF2900F6A917 /* DateExtensions.swift */,
+				E33F5B75233CB87000F6A917 /* ImageExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E33F5B62233CB0EB00F6A917 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E33F5B63233CB10100F6A917 /* Author.swift */,
+				E33F5B65233CB1B700F6A917 /* Body.swift */,
+				E33F5B67233CB1FD00F6A917 /* Message.swift */,
+				E33F5B69233CB2F200F6A917 /* ResponsePost.swift */,
+				E33F5B6B233CB34B00F6A917 /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E33F5B6D233CB3D600F6A917 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E33F5B6E233CB46D00F6A917 /* ApiManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E33F5B72233CB6A000F6A917 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E33F5B73233CB6BD00F6A917 /* PostsListTVC.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E33F5B77233CCB0500F6A917 /* AddPost */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AddPost;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E33F5B1E233CAC6700F6A917 /* grio-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E33F5B4A233CAC6900F6A917 /* Build configuration list for PBXNativeTarget "grio-test" */;
+			buildPhases = (
+				E33F5B1B233CAC6700F6A917 /* Sources */,
+				E33F5B1C233CAC6700F6A917 /* Frameworks */,
+				E33F5B1D233CAC6700F6A917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "grio-test";
+			productName = "grio-test";
+			productReference = E33F5B1F233CAC6700F6A917 /* grio-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E33F5B35233CAC6900F6A917 /* grio-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E33F5B4D233CAC6900F6A917 /* Build configuration list for PBXNativeTarget "grio-testTests" */;
+			buildPhases = (
+				E33F5B32233CAC6900F6A917 /* Sources */,
+				E33F5B33233CAC6900F6A917 /* Frameworks */,
+				E33F5B34233CAC6900F6A917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E33F5B38233CAC6900F6A917 /* PBXTargetDependency */,
+			);
+			name = "grio-testTests";
+			productName = "grio-testTests";
+			productReference = E33F5B36233CAC6900F6A917 /* grio-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E33F5B40233CAC6900F6A917 /* grio-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E33F5B50233CAC6900F6A917 /* Build configuration list for PBXNativeTarget "grio-testUITests" */;
+			buildPhases = (
+				E33F5B3D233CAC6900F6A917 /* Sources */,
+				E33F5B3E233CAC6900F6A917 /* Frameworks */,
+				E33F5B3F233CAC6900F6A917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E33F5B43233CAC6900F6A917 /* PBXTargetDependency */,
+			);
+			name = "grio-testUITests";
+			productName = "grio-testUITests";
+			productReference = E33F5B41233CAC6900F6A917 /* grio-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E33F5B17233CAC6700F6A917 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Glauco Valdes";
+				TargetAttributes = {
+					E33F5B1E233CAC6700F6A917 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					E33F5B35233CAC6900F6A917 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = E33F5B1E233CAC6700F6A917;
+					};
+					E33F5B40233CAC6900F6A917 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = E33F5B1E233CAC6700F6A917;
+					};
+				};
+			};
+			buildConfigurationList = E33F5B1A233CAC6700F6A917 /* Build configuration list for PBXProject "grio-test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E33F5B16233CAC6700F6A917;
+			productRefGroup = E33F5B20233CAC6700F6A917 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E33F5B1E233CAC6700F6A917 /* grio-test */,
+				E33F5B35233CAC6900F6A917 /* grio-testTests */,
+				E33F5B40233CAC6900F6A917 /* grio-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E33F5B1D233CAC6700F6A917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33F5B5A233CAD3700F6A917 /* PostsList.storyboard in Resources */,
+				E33F5B30233CAC6900F6A917 /* LaunchScreen.storyboard in Resources */,
+				E33F5B2D233CAC6900F6A917 /* Assets.xcassets in Resources */,
+				E33F5B71233CB64900F6A917 /* data.json in Resources */,
+				E33F5B28233CAC6700F6A917 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33F5B34233CAC6900F6A917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33F5B3F233CAC6900F6A917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E33F5B1B233CAC6700F6A917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33F5B64233CB10100F6A917 /* Author.swift in Sources */,
+				E33F5B66233CB1B700F6A917 /* Body.swift in Sources */,
+				E33F5B2B233CAC6700F6A917 /* grio_test.xcdatamodeld in Sources */,
+				E33F5B61233CAF2900F6A917 /* DateExtensions.swift in Sources */,
+				E33F5B25233CAC6700F6A917 /* ViewController.swift in Sources */,
+				E33F5B68233CB1FD00F6A917 /* Message.swift in Sources */,
+				E33F5B6F233CB46D00F6A917 /* ApiManager.swift in Sources */,
+				E33F5B5E233CADC200F6A917 /* PostsListVC.swift in Sources */,
+				E33F5B6A233CB2F200F6A917 /* ResponsePost.swift in Sources */,
+				E33F5B76233CB87000F6A917 /* ImageExtensions.swift in Sources */,
+				E33F5B23233CAC6700F6A917 /* AppDelegate.swift in Sources */,
+				E33F5B6C233CB34B00F6A917 /* Post.swift in Sources */,
+				E33F5B74233CB6BD00F6A917 /* PostsListTVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33F5B32233CAC6900F6A917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33F5B3B233CAC6900F6A917 /* grio_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33F5B3D233CAC6900F6A917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33F5B46233CAC6900F6A917 /* grio_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E33F5B38233CAC6900F6A917 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E33F5B1E233CAC6700F6A917 /* grio-test */;
+			targetProxy = E33F5B37233CAC6900F6A917 /* PBXContainerItemProxy */;
+		};
+		E33F5B43233CAC6900F6A917 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E33F5B1E233CAC6700F6A917 /* grio-test */;
+			targetProxy = E33F5B42233CAC6900F6A917 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E33F5B26233CAC6700F6A917 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E33F5B27233CAC6700F6A917 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E33F5B2E233CAC6900F6A917 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E33F5B2F233CAC6900F6A917 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E33F5B48233CAC6900F6A917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E33F5B49233CAC6900F6A917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E33F5B4B233CAC6900F6A917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/grio-test/Source/System/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glauco.grio-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E33F5B4C233CAC6900F6A917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/grio-test/Source/System/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glauco.grio-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E33F5B4E233CAC6900F6A917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "grio-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glauco.grio-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grio-test.app/grio-test";
+			};
+			name = Debug;
+		};
+		E33F5B4F233CAC6900F6A917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "grio-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glauco.grio-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grio-test.app/grio-test";
+			};
+			name = Release;
+		};
+		E33F5B51233CAC6900F6A917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "grio-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glauco.grio-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "grio-test";
+			};
+			name = Debug;
+		};
+		E33F5B52233CAC6900F6A917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "grio-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glauco.grio-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "grio-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E33F5B1A233CAC6700F6A917 /* Build configuration list for PBXProject "grio-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33F5B48233CAC6900F6A917 /* Debug */,
+				E33F5B49233CAC6900F6A917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E33F5B4A233CAC6900F6A917 /* Build configuration list for PBXNativeTarget "grio-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33F5B4B233CAC6900F6A917 /* Debug */,
+				E33F5B4C233CAC6900F6A917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E33F5B4D233CAC6900F6A917 /* Build configuration list for PBXNativeTarget "grio-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33F5B4E233CAC6900F6A917 /* Debug */,
+				E33F5B4F233CAC6900F6A917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E33F5B50233CAC6900F6A917 /* Build configuration list for PBXNativeTarget "grio-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33F5B51233CAC6900F6A917 /* Debug */,
+				E33F5B52233CAC6900F6A917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E33F5B29233CAC6700F6A917 /* grio_test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E33F5B2A233CAC6700F6A917 /* grio_test.xcdatamodel */,
+			);
+			currentVersion = E33F5B2A233CAC6700F6A917 /* grio_test.xcdatamodel */;
+			path = grio_test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E33F5B17233CAC6700F6A917 /* Project object */;
+}
